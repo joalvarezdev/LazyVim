@@ -15,3 +15,10 @@ map("n", "<A-e>", ":BufferClose<CR>")
 -- NEO TREE
 map("n", "<A-1>", ":Neotree focus<CR>")
 map("n", "<A-q>", ":Neotree close<CR>")
+
+map("n", "<A-h>", ":wincmd h<CR>")
+map("n", "<A-l>", ":wincmd l<CR>")
+
+-- REST NVIM
+
+map("n", "<leader>rr", "require('rest-nvim').run()<CR>")
