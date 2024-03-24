@@ -7,10 +7,11 @@ return {
         "luacheck",
         "shellcheck",
         "shfmt",
+        "pyright",
+        "mypy",
       })
     end,
   },
-  --
   {
     "neovim/nvim-lspconfig",
     opts = {
@@ -88,5 +89,20 @@ return {
     opts = function(_, opts)
       table.insert(opts.sources, { name = "emoji" })
     end,
+  },
+  {
+    "hrsh7h/nvim-cmp",
+    dependencies = {
+      "hrsh7th/cmp-buffer",
+      "hrsh7th/cmp-path",
+      "hrsh7th/cmp-nvim-lsp",
+      "hrsh7th/cmp-cmdline",
+      "L3MON4D3/LuaSnip",
+      "saadparwaizi/cmp_luasnip",
+      "windwp/nvim-autopairs",
+    },
+    event = "VeryLazy",
+    main = "config.cmp",
+    config = true,
   },
 }
