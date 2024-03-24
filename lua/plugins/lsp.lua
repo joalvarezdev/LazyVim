@@ -14,6 +14,9 @@ return {
   },
   {
     "neovim/nvim-lspconfig",
+    dependencies = {
+      { "WhoIsSethDaniel/mason-tool-installer.nvim" },
+    },
     opts = {
       inlay_hints = { enabled = true },
       servers = {
@@ -96,10 +99,10 @@ return {
       "hrsh7th/cmp-buffer",
       "hrsh7th/cmp-path",
       "hrsh7th/cmp-nvim-lsp",
-      "hrsh7th/cmp-cmdline",
-      "L3MON4D3/LuaSnip",
-      "saadparwaizi/cmp_luasnip",
-      "windwp/nvim-autopairs",
+      --"hrsh7th/cmp-cmdline",
+      --"L3MON4D3/LuaSnip",
+      --"saadparwaizi/cmp_luasnip",
+      --"windwp/nvim-autopairs",
     },
     event = "VeryLazy",
     main = "config.cmp",

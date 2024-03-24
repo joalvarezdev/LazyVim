@@ -1,8 +1,8 @@
 require("catppuccin").setup({
   flavour = "mocha", -- latte, frappe, macchiato, mocha
   background = { -- :h background
-    light = "mocha",
-    dark = "mocha",
+    light = "macchiato",
+    dark = "macchiato",
   },
   transparent_background = false, -- disables setting the background color.
   show_end_of_buffer = false, -- shows the '~' characters after the end of buffers
@@ -17,7 +17,7 @@ require("catppuccin").setup({
   no_underline = false, -- Force no underline
   styles = { -- Handles the styles of general hi groups (see `:h highlight-args`):
     comments = { "bold" }, -- Change the style of comments
-    conditionals = { "italic" },
+    conditionals = { "bold" },
     loops = {},
     functions = {},
     keywords = {},
