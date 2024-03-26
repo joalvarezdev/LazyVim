@@ -29,5 +29,8 @@ vim.opt.splitbelow = true
 vim.opt.splitright = true
 vim.opt.splitkeep = "cursor"
 vim.opt.mouse = ""
+vim.opt.spelllang = "es"
+
+vim.o.wrap = true
 
 vim.opt.formatoptions:append({ "r" })
