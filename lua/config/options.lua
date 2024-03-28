@@ -29,7 +29,7 @@ vim.opt.splitbelow = true
 vim.opt.splitright = true
 vim.opt.splitkeep = "cursor"
 vim.opt.mouse = ""
-vim.opt.spelllang = "es"
+vim.opt.spelllang = "es-es"
 
 vim.o.wrap = true
 
