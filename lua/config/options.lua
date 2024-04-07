@@ -32,7 +32,7 @@ vim.opt.mouse = ""
 vim.o.undodir = "~/.nvim/undodir"
 
 vim.opt.spell = true
-vim.opt.spelllang = "es"
+vim.opt.spelllang = "es,en"
 
 vim.o.wrap = true
 
