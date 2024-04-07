@@ -29,10 +29,10 @@ vim.opt.splitbelow = true
 vim.opt.splitright = true
 vim.opt.splitkeep = "cursor"
 vim.opt.mouse = ""
-vim.o.undodir = "~/.config/nvim/undodir"
+vim.o.undodir = "~/.nvim/undodir"
 
-vim.opt.spelllang = "es.utf-8"
 vim.opt.spell = true
+vim.opt.spelllang = "es"
 
 vim.o.wrap = true
 

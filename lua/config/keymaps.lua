@@ -26,3 +26,6 @@ keymap("n", "<A-1>", ":Neotree focus<CR>", opts)
 keymap("n", "<A-q>", ":Neotree close<CR>", opts)
 keymap("n", "<A-h>", ":wincmd h<CR>", opts)
 keymap("n", "<A-l>", ":wincmd l<CR>", opts)
+
+-- MARKDOWN
+keymap("n", "<leader>md", ":MarkdownPreviewToggle<CR>", opts)
