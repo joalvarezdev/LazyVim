@@ -31,7 +31,7 @@ vim.opt.splitkeep = "cursor"
 vim.opt.mouse = ""
 vim.o.undodir = "~/.nvim/undodir"
 
-vim.opt.spell = true
+vim.opt.spell = false
 vim.opt.spelllang = "es,en_us"
 
 vim.o.wrap = true
