@@ -29,7 +29,7 @@ vim.opt.splitbelow = true
 vim.opt.splitright = true
 vim.opt.splitkeep = "cursor"
 vim.opt.mouse = ""
-vim.o.undodir = "~/.nvim/undodir"
+vim.o.undodir = "/home/joalvarez/.nvim/undodir"
 
 vim.opt.spell = false
 vim.opt.spelllang = "es,en_us"

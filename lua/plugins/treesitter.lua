@@ -5,12 +5,13 @@ return {
     opts = {
       ensure_installed = {
         "gitignore",
-        "graphql",
+        "bash",
         "http",
+        "graphql",
         "json",
         "sql",
         "vim",
-        "lua",
+        "markdown",
         "yaml",
       },
       query_linter = {
