@@ -12,7 +12,6 @@ return {
         "sql",
         "vim",
         "markdown",
-        "yaml",
       },
       query_linter = {
         enable = true,
