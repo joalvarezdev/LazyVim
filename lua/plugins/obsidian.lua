@@ -10,11 +10,11 @@ return {
     workspaces = {
       {
         name = "personal",
-        path = "~/apps/obsidian/vaults/personal",
+        path = "$HOME/apps/obsidian/joalvarez",
       },
       {
         name = "infosis",
-        path = "~/apps/obsidian/vaults/infosis",
+        path = "$HOME/apps/obsidian/infosis",
       },
     },
   },
